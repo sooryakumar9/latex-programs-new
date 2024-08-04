@@ -1,0 +1,33 @@
+
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{algorithm2e}
+
+\title{Algorithm Package}
+\author{Soorya Kumar}
+\date{\today}
+
+\begin{document}
+	\maketitle
+	
+	\section*{Question}
+		{\large Develop a LaTeX script to present an algorithm in the document usinalgorithm/algorithmic/algorithm2e library.}\\
+		
+	\large{
+		\begin{algorithm}[H]
+			Algorithm to find the maximum value in a list $L[1...n]$
+			\caption{Find Maximum Value}
+			\KwIn{A list of numbers $L = [l_1, l_2, \ldots, l_n]$}
+			\KwOut{The maximum value in the list}
+			
+			$max \leftarrow L[0]$\;
+			\For{each number $x$ in $L$}{
+				\If{$x > max$}{
+					$max \leftarrow x$\;
+				}
+			}
+			\Return $max$\;
+		\end{algorithm}
+	}	
+\end{document}

@@ -1,0 +1,26 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{natbib}
+
+
+
+\title{Simple Report}
+\author{Soorya Kumar}
+\date{\today}
+
+\begin{document}
+	\maketitle
+	
+	\section*{Question}
+		{\large Develop a LaTeX script to create a document that consists of two paragraphs with a minimum of 10
+		citations in it and display the reference in section}
+	
+	\section{Introduction}
+		In recent years, there has been significant progress in the field of machine learning and artificial intelligence.  \cite{lecun2015deep}. Moreover, reinforcement learning has shown promising results in game playing and robotic control \cite{sutton2018reinforcement, mnih2015human}. Additionally, advancements in hardware, such as GPUs, have accelerated the training of complex models \cite{krizhevsky2012imagenet}.  These developments highlight the dynamic nature of the field and the continuous push  and powerful AI systems.\cite{bonaccorso2018machine} \cite{russell2016artificial}.\\
+		
+		The ethical implications of AI and machine learning are another critical area of study.  \cite{mittelstadt2016ethics, jobin2019global}. Issues such as algorithmic bias can lead to unfair treatment of individuals and groups, necessitating rigorous testing and validation of AI systems \cite{toreini2020relationship}.  Additionally, the deployment of AI in sensitive areas like healthcare and criminal justice requires transparent decision-making processes to maintain public trust \cite{toreini2020relationship}. As AI continues to evolve, it is imperative that researchers, policymakers \cite{floridi2018ai}. Researchers are also exploring the integration of quantum computing with machine learning to solve problems that are currently infeasible with classical computers.
+	
+	\bibliographystyle{plain}
+	\bibliography{reference}
+\end{document}

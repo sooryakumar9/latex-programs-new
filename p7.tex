@@ -1,0 +1,53 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{amsmath}
+\usepackage[left=2cm,right=2cm,top=3cm,bottom=2cm]{geometry}
+
+\title{Mathematical Equations}
+\author{Soorya Kumar}
+\date{\today}
+
+\begin{document}
+	\maketitle
+	\large{
+		\section*{Question}
+		 Develop a LaTeX script to create a document that consists of the following two mathematical equations.
+		
+		\noindent Here are the mathematical equations:\\
+		
+		\begin{minipage}{0.45\textwidth}
+			\begin{equation}
+				\label{E1}
+				\varphi_{\sigma}A_t = \sum_{\pi \in C_t} \text{sgn}(\pi) \varphi_{\sigma}^{\lambda} \varphi_{\pi}^{\lambda}
+			\end{equation}
+			
+			\begin{equation}
+				\label{E2}
+				= \sum_{\tau \in C_{\sigma t}} \text{sgn}(\sigma^{-1} \tau \sigma) \varphi_{\sigma}^{\lambda} \varphi_{\sigma^{-1} \tau \sigma}^{\lambda}
+			\end{equation}
+			
+			\begin{equation}
+				\label{E3}
+				 = A_{\sigma t} \varphi_{\sigma}^{\lambda}
+			\end{equation}\\
+		\end{minipage}
+		\hfill
+		\begin{minipage}{0.45\textwidth}
+			\begin{equation}
+				\label{E4}
+				 x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+			\end{equation}
+			
+			\begin{equation}
+				\label{E5}
+				 = \frac{-2 \pm \sqrt{2^2 - 4 \cdot 1 \cdot (-8)}}{2 \cdot 1}
+			\end{equation}
+			
+			\begin{equation}
+				\label{E6}
+				 = \frac{-2 \pm \sqrt{4 + 32}}{2}
+			\end{equation}\\
+		\end{minipage} \\
+		
+		The equations given in the program are represented using LaTeX code as shown in \ref{E1}, \ref{E2}, \ref{E3}, \ref{E4}, \ref{E5}, \ref{E6}. 
+	}
+\end{document}

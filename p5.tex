@@ -1,0 +1,32 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{multirow} 
+\usepackage[left=2cm,right=2cm,top=3cm,bottom=2cm]{geometry}
+
+\title{\LARGE \textbf{TABLE DEMO}}
+\author{Soorya Kumar}
+\date{\today}
+
+\begin{document}
+	\maketitle
+	
+	\section*{Question}
+		{\large Develop a LaTeX script to create a document that contains the following table with proper labels.}\\
+	
+	\section*{Marks Table}
+		\begin{tabular}{|c|c|c|c|c|c|}
+			\hline 
+			\multirow{2}{*}{Sl.No} & \multirow{2}{*}{USN} & \multirow{2}{*}{Student Name} & \multicolumn{3}{c|}{Marks} \\ 
+			\cline{4-6} 
+			&  &  & Subject1 & Subject2 & Subject3 \\ 
+			\hline 
+			1 & IJSCS22 & Name 1 & 88 & 77 & 97 \\ 
+			\hline 
+			2 & IJSCS22 & Name 2 & 74 & 78 & 66 \\ 
+			\hline 
+			3 & IJSCS22 & Name 3 & 88 & 82 & 79 \\ 
+			\hline 
+		\end{tabular} 
+	
+\end{document}
+
+

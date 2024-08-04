@@ -1,0 +1,45 @@
+\documentclass{article}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage[left=2cm,right=2cm,top=3cm,bottom=2cm]{geometry}
+
+\theoremstyle{plain} 
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition} 
+\newtheorem{definition}[theorem]{Definition}
+
+\title{Pythagorean Theorem}
+\author{Soorya Kumar}
+\date{\today}
+
+\begin{document}
+	\maketitle
+	\large{
+		\section*{Question}
+			 {\Large Develop a LaTeX script to demonstrate the presentation of Numbered theorems, definitions, corollaries, lemmas.}
+		\section{Introduction}
+			The Pythagorean Theorem is a fundamental result in geometry. It states that in a right-angled triangle, the square of the length of the hypotenuse is equal to the sum of the squares of the lengths of the other two sides.
+		
+		\begin{definition}
+			A \textbf{right-angled triangle} is a triangle in which one of the angles is a right angle (\(90^\circ\)).
+		\end{definition}
+		
+		\begin{theorem}[Pythagorean Theorem] 
+			In a right-angled triangle, let \( a \) and \( b \) be the lengths of the legs, and let \( c \) be the length of the hypotenuse. Then,
+			\[
+			a^2 + b^2 = c^2.
+			\]
+		\end{theorem}
+		
+		\begin{lemma}
+			In an isosceles right-angled triangle, the hypotenuse is \( \sqrt{2} \) times the length of each leg.
+		\end{lemma}
+		
+		\begin{corollary}
+			In a right-angled triangle, if the hypotenuse is twice the length of one leg, then the triangle is a 30-60-90 triangle.
+		\end{corollary}
+	}
+\end{document}
+
